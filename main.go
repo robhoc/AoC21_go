@@ -1,9 +1,7 @@
 package main
 
-import (
-	"hochstrat.info/aoc/day01"
-)
+import "hochstrat.info/aoc/day02"
 
 func main() {
-	day01.Solve()
+	day02.Solve()
 }

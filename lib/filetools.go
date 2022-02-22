@@ -9,6 +9,7 @@ import (
 )
 
 func ScanFile(filename string) []string {
+	fmt.Println("opening file", filename)
 	f, err := os.OpenFile(filename, os.O_RDONLY, os.ModePerm)
 	if err != nil {
 		log.Fatalf("open file error: %v", err)
